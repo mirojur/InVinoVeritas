@@ -1,0 +1,6 @@
+framework module Pods_InVinoVeritas {
+  umbrella header "Pods-InVinoVeritas-umbrella.h"
+
+  export *
+  module * { export * }
+}

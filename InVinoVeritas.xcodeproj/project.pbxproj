@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3A38FE2E1F37304600C7A993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38FE2D1F37304600C7A993 /* AppDelegate.swift */; };
-		3A38FE301F37304600C7A993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38FE2F1F37304600C7A993 /* ViewController.swift */; };
+		3A38FE301F37304600C7A993 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38FE2F1F37304600C7A993 /* LoginController.swift */; };
 		3A38FE331F37304600C7A993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE311F37304600C7A993 /* Main.storyboard */; };
 		3A38FE351F37304600C7A993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE341F37304600C7A993 /* Assets.xcassets */; };
 		3A38FE381F37304600C7A993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE361F37304600C7A993 /* LaunchScreen.storyboard */; };
+		3A38FE401F37314C00C7A993 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE3F1F37314C00C7A993 /* GoogleService-Info.plist */; };
+		722FDE27D62167C8E06DC317 /* Pods_InVinoVeritas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296D98901FCD712894A7CA5 /* Pods_InVinoVeritas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111500B4C873470806C0382D /* Pods-InVinoVeritas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVinoVeritas.release.xcconfig"; path = "Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas.release.xcconfig"; sourceTree = "<group>"; };
+		1296D98901FCD712894A7CA5 /* Pods_InVinoVeritas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVinoVeritas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A38FE2A1F37304600C7A993 /* InVinoVeritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InVinoVeritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A38FE2D1F37304600C7A993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A38FE2F1F37304600C7A993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A38FE2F1F37304600C7A993 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		3A38FE321F37304600C7A993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A38FE341F37304600C7A993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A38FE371F37304600C7A993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A38FE391F37304600C7A993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A38FE3F1F37314C00C7A993 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5F3677FEC975D87033A23E7 /* Pods-InVinoVeritas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVinoVeritas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722FDE27D62167C8E06DC317 /* Pods_InVinoVeritas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				3A38FE2C1F37304600C7A993 /* InVinoVeritas */,
 				3A38FE2B1F37304600C7A993 /* Products */,
+				5B469CCBE6551FBADE296776 /* Pods */,
+				AE029ECF819A3016124CC570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				3A38FE2D1F37304600C7A993 /* AppDelegate.swift */,
-				3A38FE2F1F37304600C7A993 /* ViewController.swift */,
+				3A38FE2F1F37304600C7A993 /* LoginController.swift */,
 				3A38FE311F37304600C7A993 /* Main.storyboard */,
 				3A38FE341F37304600C7A993 /* Assets.xcassets */,
 				3A38FE361F37304600C7A993 /* LaunchScreen.storyboard */,
 				3A38FE391F37304600C7A993 /* Info.plist */,
+				3A38FE3F1F37314C00C7A993 /* GoogleService-Info.plist */,
 			);
 			path = InVinoVeritas;
+			sourceTree = "<group>";
+		};
+		5B469CCBE6551FBADE296776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3677FEC975D87033A23E7 /* Pods-InVinoVeritas.debug.xcconfig */,
+				111500B4C873470806C0382D /* Pods-InVinoVeritas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE029ECF819A3016124CC570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1296D98901FCD712894A7CA5 /* Pods_InVinoVeritas.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A38FE3C1F37304600C7A993 /* Build configuration list for PBXNativeTarget "InVinoVeritas" */;
 			buildPhases = (
+				9A103AACFB3B9BAB7770F8C4 /* [CP] Check Pods Manifest.lock */,
 				3A38FE261F37304600C7A993 /* Sources */,
 				3A38FE271F37304600C7A993 /* Frameworks */,
 				3A38FE281F37304600C7A993 /* Resources */,
+				0BD879EAD6AF52F894CCC5EE /* [CP] Embed Pods Frameworks */,
+				B7CA0D0037A240B6C4F491D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A38FE381F37304600C7A993 /* LaunchScreen.storyboard in Resources */,
+				3A38FE401F37314C00C7A993 /* GoogleService-Info.plist in Resources */,
 				3A38FE351F37304600C7A993 /* Assets.xcassets in Resources */,
 				3A38FE331F37304600C7A993 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BD879EAD6AF52F894CCC5EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A103AACFB3B9BAB7770F8C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CA0D0037A240B6C4F491D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A38FE261F37304600C7A993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A38FE301F37304600C7A993 /* ViewController.swift in Sources */,
+				3A38FE301F37304600C7A993 /* LoginController.swift in Sources */,
 				3A38FE2E1F37304600C7A993 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +338,7 @@
 		};
 		3A38FE3D1F37304600C7A993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F3677FEC975D87033A23E7 /* Pods-InVinoVeritas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9JARSYXCR4;
@@ -272,6 +352,7 @@
 		};
 		3A38FE3E1F37304600C7A993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111500B4C873470806C0382D /* Pods-InVinoVeritas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9JARSYXCR4;
@@ -302,6 +383,7 @@
 				3A38FE3E1F37304600C7A993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
