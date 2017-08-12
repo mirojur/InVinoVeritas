@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A29C0E71F3DEF2000B2C7CC /* VinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A29C0E61F3DEF2000B2C7CC /* VinoViewController.swift */; };
 		3A38FE2E1F37304600C7A993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38FE2D1F37304600C7A993 /* AppDelegate.swift */; };
-		3A38FE301F37304600C7A993 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38FE2F1F37304600C7A993 /* LoginController.swift */; };
 		3A38FE331F37304600C7A993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE311F37304600C7A993 /* Main.storyboard */; };
 		3A38FE351F37304600C7A993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE341F37304600C7A993 /* Assets.xcassets */; };
 		3A38FE381F37304600C7A993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE361F37304600C7A993 /* LaunchScreen.storyboard */; };
 		3A38FE401F37314C00C7A993 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A38FE3F1F37314C00C7A993 /* GoogleService-Info.plist */; };
+		3A4EF0A41F3A1813004902D7 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EF0A31F3A1813004902D7 /* StartController.swift */; };
+		3A4EF0A61F3A1825004902D7 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EF0A51F3A1825004902D7 /* SignInController.swift */; };
+		3A4EF0A81F3A1831004902D7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EF0A71F3A1831004902D7 /* LoginController.swift */; };
 		722FDE27D62167C8E06DC317 /* Pods_InVinoVeritas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296D98901FCD712894A7CA5 /* Pods_InVinoVeritas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		111500B4C873470806C0382D /* Pods-InVinoVeritas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVinoVeritas.release.xcconfig"; path = "Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas.release.xcconfig"; sourceTree = "<group>"; };
 		1296D98901FCD712894A7CA5 /* Pods_InVinoVeritas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVinoVeritas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A29C0E61F3DEF2000B2C7CC /* VinoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinoViewController.swift; sourceTree = "<group>"; };
 		3A38FE2A1F37304600C7A993 /* InVinoVeritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InVinoVeritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A38FE2D1F37304600C7A993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A38FE2F1F37304600C7A993 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		3A38FE321F37304600C7A993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A38FE341F37304600C7A993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A38FE371F37304600C7A993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A38FE391F37304600C7A993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A38FE3F1F37314C00C7A993 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A4EF0A31F3A1813004902D7 /* StartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartController.swift; path = ../../NumbersInTime/NumbersInTime/StartController.swift; sourceTree = "<group>"; };
+		3A4EF0A51F3A1825004902D7 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInController.swift; path = ../../NumbersInTime/NumbersInTime/SignInController.swift; sourceTree = "<group>"; };
+		3A4EF0A71F3A1831004902D7 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ../../NumbersInTime/NumbersInTime/LoginController.swift; sourceTree = "<group>"; };
 		B5F3677FEC975D87033A23E7 /* Pods-InVinoVeritas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVinoVeritas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InVinoVeritas/Pods-InVinoVeritas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,8 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				3A38FE2D1F37304600C7A993 /* AppDelegate.swift */,
-				3A38FE2F1F37304600C7A993 /* LoginController.swift */,
 				3A38FE311F37304600C7A993 /* Main.storyboard */,
+				3A4EF0A31F3A1813004902D7 /* StartController.swift */,
+				3A29C0E61F3DEF2000B2C7CC /* VinoViewController.swift */,
+				3A4EF0A51F3A1825004902D7 /* SignInController.swift */,
+				3A4EF0A71F3A1831004902D7 /* LoginController.swift */,
 				3A38FE341F37304600C7A993 /* Assets.xcassets */,
 				3A38FE361F37304600C7A993 /* LaunchScreen.storyboard */,
 				3A38FE391F37304600C7A993 /* Info.plist */,
@@ -216,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A38FE301F37304600C7A993 /* LoginController.swift in Sources */,
+				3A4EF0A61F3A1825004902D7 /* SignInController.swift in Sources */,
+				3A4EF0A81F3A1831004902D7 /* LoginController.swift in Sources */,
+				3A29C0E71F3DEF2000B2C7CC /* VinoViewController.swift in Sources */,
+				3A4EF0A41F3A1813004902D7 /* StartController.swift in Sources */,
 				3A38FE2E1F37304600C7A993 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

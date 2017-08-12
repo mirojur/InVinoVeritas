@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71C6544F04A01E53E98511F0B31342D1BE88C992",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8518D7E5F453EAF594EBD98AA91C2550AAF1A7EE" : 9223372036854775807,
+    "71C6544F04A01E53E98511F0B31342D1BE88C992" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8575849A-20E9-49CB-8265-0F29633D6CA7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8518D7E5F453EAF594EBD98AA91C2550AAF1A7EE" : "NumbersInTime\/",
+    "71C6544F04A01E53E98511F0B31342D1BE88C992" : "InVinoVeritas\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InVinoVeritas",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "InVinoVeritas.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mirojur\/InVinoVeritas.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71C6544F04A01E53E98511F0B31342D1BE88C992"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mirojur\/NumbersInTime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8518D7E5F453EAF594EBD98AA91C2550AAF1A7EE"
+    }
+  ]
+}
